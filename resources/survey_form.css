@@ -1,0 +1,130 @@
+#title{
+    color:#2F4F4F;}
+  #description{
+    color:#2F4F4F
+    
+  }
+  #dayspring{
+    color: #0008BB;
+    text-align: center;
+    background-color: #ADD8E6;
+    font-size: 20px;
+    
+  }
+  .patient{
+    font-size: 17px;
+    background-color:pink;
+    font-family: arial;
+    font-color:#006400;
+    padding: 0.5px;
+    padding-left: 50px;
+    margin-right: 215px;
+    margin-bottom: 30px; 
+  
+  }
+  .label{
+    font-size: 19px;
+    font-color: #006400;
+    
+    
+  }
+  .form-attribute{
+    font-size: 17px;
+    margin-left: 10px;
+    padding-left:10px;
+    width: 60%;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.75rem;
+    display: inline;
+   border: 1px solid #ced4da;
+   
+  }
+  
+  #number{
+    font-size: 17px;
+    margin-left: 23px;
+    padding-left:10px;
+    width: 60%;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.75rem;
+    display: inline;
+   border: 1px solid #ced4da;
+    }
+  #female-radio{
+    margin-left:130px;
+    font-size:800px;
+    display: inline;
+    
+  }
+  #male-radio{
+    font-size:800px;
+    margin-left: 70px;
+    display:inline;
+  }
+  #dropdown{
+     font-size: 17px;
+    margin-left: 10px;
+    padding-left:10px;
+    width: 53%;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.60rem;
+    display: inline;
+   border: 1px #ced4da;
+    
+  }
+  #dropdown-nurse{
+    font-size: 17px;
+    margin-left: 23px;
+    padding-left:10px;
+    width: 53%;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.60rem;
+    display: inline;
+   border: 1px #ced4da;
+  }
+  #dropdown-time{
+    font-size: 17px;
+    margin-left: 33px;
+    padding-left:10px;
+    width: 53%;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.60rem;
+    display: inline;
+   border: 1px #ced4da;
+  }
+  #improve{
+   font-size: 19px;
+    font-color: #006400;
+  }
+  #apply{
+   font-size: 17px;
+    font-color: #006400; 
+  }
+  .input-checkbox{
+    display:inline;
+    margin-right: 20px;
+    transform:scale(1.5);
+    margin-top:10px;
+  }
+  #div-checkbox{
+    margin-left:20px;
+    font-size:18px;
+  }
+  #suggestion{
+    font-size:19px;
+  }
+  #comments{
+    width:70%;
+    height: 120px;
+    font-size: 15px;
+    border:1px solid
+  }
+  #submit{
+    margin-left:163px;
+    width:50%;
+    height:50px;
+    background-color: green;
+    border-radius:10px;
+    cursor:pointer;
+    margin-top:20px
+  }

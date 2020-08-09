@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> survey form </title>
+  <link href="./resources/survey_form.css" type="text/css" rel="stylesheet">
+</head>
+<div class = "container">
+<header class = "header">
+  <h1 id= "title">Patient Satisfaction Survey</h1>
+   <h3 id="description">Thank you...</h3>
+</header>
+ <div id = "dayspring">
+   <h2>DaySpring Hospital</h2>
+   <i> ...if we don't take care of you, who will?</i>
+   <p>4300 Park Lane Avenue, Midland, TX 97908.</p>
+   <p> Call us at : (432)-341-6754,  (832)-720-6671</p>
+   <p>email: dayspringhospital@yahoo.com</p>        
+</div>
+<div class = "patient"> 
+<p>PATIENT INFORMATION</p>
+
+</div>
+
+<form id= "surveyform">
+
+<label class="label" for="name">Name </label>
+
+<input type="text" id="name" class="form-attribute" placeholder="Enter your name here... " required />
+<p>
+  <label class="label" for ="email">Email</label>
+  <input type="email" id="email" class="form-attribute" placeholder="Please enter a valid email address" required/></p>
+
+<p> <label class="label" for="number">Age</label>
+  <input type="number" name="age"  id="number" min="1" max= "99" placeholder="Age" required/> </p>
+<p>
+  <label class="label">Gender</label> 
+  <input type="radio" name="gender" value="male" id="male-radio" checked>  Male
+  
+    <input type="radio" name="gender" value="female" id= "female-radio">   Female
+</p>
+<div class = "patient"> 
+<p> OVERALL SATISFACTION</p>
+
+</div>
+   <label class="label" for="dropdown">Doctor Kindness </label> 
+<select id="dropdown" required>
+<option id="option-doctor" disabled selected value>
+  select an option here...
+</option>
+<option value="very">very satisfied</option>
+<option value="satisfied">satisfied</option>
+ <option value="neutral">neutral</option>
+ <option value="unsatisfied">unsatisfied
+</option>
+ <option value="very un">very unsatisfied</option> 
+
+</select>
+<p>
+   <label class="label" for="dropdown">Nurse Patience </label> 
+<select id="dropdown-nurse" required>
+<option id="option-nurse" disabled selected value>
+  select an option here...
+</option>
+<option value="very">very satisfied</option>
+<option value="satisfied">satisfied</option>
+ <option value="neutral">neutral</option>
+ <option value="unsatisfied">unsatisfied
+</option>
+ <option value="very un">very unsatisfied</option> 
+
+</select>
+</p> 
+<p>
+ <label class="label" for="dropdown">Waiting Time </label> 
+<select id="dropdown-time" required>
+<option id="option-time" disabled selected value>
+  select an option here...
+</option>
+<option value="very">very satisfied</option>
+<option value="satisfied">satisfied</option>
+ <option value="neutral">neutral</option>
+ <option value="unsatisfied">unsatisfied
+</option>
+  <option value="very un">very unsatisfied</option>  </select>
+</p>
+<p id="improve"> What improvements would you like to see? <span id="apply">(check all that apply)</span> </p>
+<div id="div-checkbox">
+<label> <input type="checkbox" name="choices" value="patient-safety" class="input-checkbox"/>Patient Safety</label>
+<p> <label><input type="checkbox" name="choices" value="facility-appearance" class="input-checkbox"/>Facility Appearance</label> </p>
+<p><label><input type="checkbox" value="appointment-schedule" class="input-checkbox"/>Appointment Schedule</label></p>
+<p><label><input type="checkbox" value="effective-care" class="input-checkbox"/>Effective Care</label></p>
+<p><label><input type="checkbox" value="healthcare-equipment" class="input-checkbox"/>Healthcare Equipment</label></p>
+<p><label><input type="checkbox" value="counselling" class="input-checkbox"/>Healthcare Product and Services</label></p>
+<p><label><input type="checkbox" value="services" class="input-checkbox"/>Others</label></p>
+</div>
+  
+<p id="suggestion"> 
+How can we improve our services?
+</p>
+<textarea id="comments" name="comment" placeholder="Please share your suggestions here...">  
+</textarea>
+<p>
+<button type="submit" id="submit" name="submits" value="submit">SUBMIT </button>
+</p>
+</form>
+</div>
+</html>
